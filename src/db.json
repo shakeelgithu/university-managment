@@ -1,0 +1,72 @@
+{
+  "signup": [
+    {
+      "id": "af75",
+      "name": "Shakeel",
+      "email": "test@test.com",
+      "password": "Test@123"
+    }
+  ],
+  "login": [
+    {
+      "id": "df95",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "3671",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "25b2",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "4b9b",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "6a5b",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "f715",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "3a8f",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "8962",
+      "email": "testWest@west.com",
+      "password": "West@123"
+    },
+    {
+      "id": "cdcd",
+      "email": "test@test.com",
+      "password": "Test@1123"
+    },
+    {
+      "id": "7629",
+      "email": "test@test.com",
+      "password": "Test@123"
+    },
+    {
+      "id": "b22b",
+      "email": "testWest@west.com",
+      "password": "456456"
+    },
+    {
+      "id": "de62",
+      "email": "test@test.com",
+      "password": "Test@123"
+    }
+  ]
+}

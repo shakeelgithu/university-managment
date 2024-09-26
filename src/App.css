@@ -1,0 +1,586 @@
+.header-section{
+    margin-left: 30%;
+}
+.navbar{
+    background-color: #0c2340;
+}
+.nav-img{
+    width: 100%;
+    height: 90vh;
+    
+}
+.title{
+    font-family: var(--font-heading); 
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #0c2340;
+     margin-top: 0;
+}
+.title-after{
+    margin-left: -1.25rem;
+    margin-top: 1rem;
+    width: 70px;
+    height: 8px;
+     background: #ae9142;
+    color: #ae9142; 
+    content: "";
+    display: block;
+    margin: .75rem 0 1.875rem 0;
+}
+.title-afterBreak{
+    margin-left: -1.25rem;
+    margin-top: 1rem;
+    width: 80px;
+    height: 8px;
+    background: #fab700;
+    color: #ffbb00; 
+    content: "";
+    display: block;
+    margin: .75rem 0 1.875rem 0;
+}
+
+.navbar .nav-link:hover {
+  color: white; /* Keep the color white on hover */
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:active,
+.navbar .nav-link:focus,
+.navbar .nav-link.dropdown-toggle:focus {
+  color: white; /* Keep color white on hover, active, and focus */
+}
+
+.title-afterBreakNews{
+    margin-left: -1.25rem;
+    margin-top: 1rem;
+    width: 80px;
+    height: 8px;
+    background: #ae9142;
+    color: #ae9142; 
+    content: "";
+    display: block;
+    margin: .75rem 0 1.875rem 0;
+}
+.cta {
+    text-align: right;
+    margin-bottom: 0;
+    
+}
+.banner{
+    background-color: #d2d2d2;
+    
+}
+.text{
+    line-height: 28px;
+    font-size: 20px;
+}
+.background{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk6b0uZ0Nj83OMbJKbR8kEs2si3jXjOokuGfIIqmI1O7UUIZgFaBi5jhtOT0pXJNkOX5M&usqp=CAU); */
+    height: 110vh;
+    background-image: url(https://www.nd.edu/assets/css/images/hdr-campus-1600.jpg);
+    /* background-color: dark; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-img{
+    width: 100%;
+}
+.display-management{
+    color: rgb(70, 86, 131);
+}
+.remarkable-content{
+    color: #0c2340;
+}
+.search-oppurtunity{
+    background-color: #0c2340;
+}
+/* .search-oppurtunity::before{
+    content: "";
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    bottom: .5rem;
+    left: .5rem;
+    border: 1px solid rgba(255, 255, 255, .6);
+} */
+ .fuuast-img{
+    position: relative;
+    top: 0px;
+    padding-left: 0px;
+ }
+ .Reseracher{
+   margin-left: 25%;
+   /* margin-top: 20%; */
+ }
+ .fuuast-img-bottom{
+    position: relative;
+    bottom: 0px;
+ }
+.university-news{
+    color: #555;
+}
+ .work{
+    color: #0c2340;
+ }
+ .news-img{
+    width: 100%;
+    height: auto;
+ }
+ .news-bg{
+    background-color: #edf2f9;
+ }
+ .article{
+    margin-left: 78%;
+    /* margin-top: 20%; */
+ }
+.l-news{
+    color: #0c2340;
+
+}
+.content-img{
+    height: auto;
+    width: 100%;
+}
+.framework-content{
+    background-color: #0c2340;
+    width: 100%;
+}
+.university-stories1{
+    color: #555;
+    margin-left: 55%;
+    margin-top: 5%;
+}
+.edu-img{
+    width: 100%;
+    height: auto;
+}
+
+:root {
+    --footer-bg: #1c2444;
+    --color: #f2f3fb;
+    --color-smooth: #9da2ae;
+    --input-border: #3a456a;
+    --btn-bg-color: #f1f2fc;
+    --btn-hover-bg: #d5d9f6;
+    --btn-color: #1e2641;
+  }
+  
+  footer {
+    font-size: 16px;
+    background: var(--footer-bg);
+    padding: 2em 4em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col-title {
+    font-family: "Merriweather", serif;
+    color: var(--color);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.5em 0;
+  }
+  
+  .col-list a {
+    color: var(--color-smooth);
+    text-decoration: none;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+  
+  .col-list a:hover,
+  .col-list a:focus {
+    text-decoration: underline;
+  }
+  
+  .subscribe-form,
+  .social-media {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 0;
+  }
+  
+  .subscribe-input {
+    width: auto;
+    flex: 1;
+    background: transparent;
+    border: 0.06em solid var(--input-border);
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--color-smooth);
+  }
+  
+  .subscribe-input:focus {
+    outline: none;
+    border-color: var(--color);
+    color: var(--color);
+  }
+  
+  .subscribe-btn {
+    background: var(--btn-bg-color);
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+    display: inline-block;
+    color: var(--btn-color);
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background: var(--btn-hover-bg);
+  }
+  
+  .form-title,
+  .social-col-title {
+    font-size: 1em;
+    color: var(--color);
+    font-weight: 500;
+  }
+  
+  .social-media {
+    flex-direction: column;
+  }
+  
+  .social-media-list {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .social-media-list a {
+    padding: 0.5em;
+    color: var(--color-smooth);
+    display: flex;
+    border-radius: 0.3em;
+    transition: all 0.25s ease 0s;
+  }
+  
+  .social-media-list a:hover,
+  .social-media-list a:focus {
+    color: var(--color);
+    background: #ffffff1a;
+  }
+  
+  .social-media-list svg {
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.25s ease 0s;
+  }
+  
+  @media screen and (max-width: 750px) {
+    footer {
+      padding: 2em;
+      flex-direction: column;
+    }
+  }
+  .background-academies{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk6b0uZ0Nj83OMbJKbR8kEs2si3jXjOokuGfIIqmI1O7UUIZgFaBi5jhtOT0pXJNkOX5M&usqp=CAU); */
+    height: 50vh;
+    background-image: url(https://www.nd.edu/assets/css/images/hdr-campus-1600.jpg);
+    /* background-color: dark; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Edu-Acd{
+    color: rgb(133, 133, 133);
+}
+.depth1{
+  list-style: none;
+}
+.academies-qualification{
+  text-decoration: none;
+  color: #0c2340;
+}
+.academies-qualification:hover{
+    background-color: #e1e8f2;
+    /* padding: 5px; */
+}
+
+.nav-secondary a {
+  display: block;
+  padding: .75rem 1rem;
+  transition: all var(--anim-duration-fast) var(--anim-ease);
+}
+.image-default{
+  width: 100%;
+  height: auto;
+}
+.o-img{
+  width: 100%;
+}
+
+.navbar-nav{
+  margin-left: 15%;
+}
+/* Custom styles for dropdowns */
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #343a40; /* Dark background */
+}
+
+.navbar-nav .nav-item .dropdown-item {
+  color: #ffffff; /* White text */
+}
+
+.navbar-nav .nav-item .dropdown-item:hover {
+  background-color: #495057; /* Lighter background on hover */
+}
+.navbar-nav .nav-link{
+  color: white;
+}
+
+.nav-link:focus{
+  color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white
+}
+
+.navbar-collapse{
+  margin-right:10% ;
+}
+
+.scrolling-alert {
+  display: block;
+  width: 100%;
+  overflow: hidden; /* Hide the overflowing part */
+  white-space: nowrap;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  position: relative;
+}
+
+.scrolling-text {
+  display: inline-block;
+  padding-left: 50%; /* Start closer to the view */
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite; /* Adjusted to 5 seconds */
+}
+
+.scrolling-alert:hover .scrolling-text {
+  animation-play-state: paused; /* Pause on hover */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); /* Start from right */
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll to left */
+  }
+}
+
+.faculty-spotlight-section {
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40; /* Match the button color */
+  border-radius: 50%;
+}
+
+.faculty-section .card {
+  transition: transform 0.3s;
+}
+
+.faculty-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  border-radius: 20px; /* Rounded buttons */
+}
+
+
+.eligibility-container {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px; /* Padding around the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.eligibility-title {
+  font-size: 24px; /* Title font size */
+  margin-bottom: 15px; /* Space below the title */
+  color: #333; /* Darker text color */
+  text-align: center; /* Center align the title */
+}
+
+.eligibility-list {
+  list-style-type: disc; /* Bulleted list */
+  padding-left: 20px; /* Indentation for the list */
+}
+
+.eligibility-item {
+  margin: 10px 0; /* Space between list items */
+  font-size: 18px; /* Font size for list items */
+  color: #555; /* Slightly lighter color for items */
+}
+
+.merit-list-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for a clean look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.merit-list-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50; /* Darker title color for better readability */
+  font-weight: bold;
+}
+
+.merit-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.merit-list-table th,
+.merit-list-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.merit-list-table th {
+  background-color: #0c2340; /* Blue header */
+  color: white;
+  text-transform: uppercase; /* Uppercase for headers */
+}
+
+.merit-list-table tr {
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.merit-list-table tr:hover {
+  background-color: #627286 /* Light blue highlight on hover */
+}
+
+.merit-list-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping for readability */
+}
+
+
+.background-academies {
+  background-color: #f8f9fa; /* Background color */
+  padding: 40px 0;
+}
+
+.academies-qualification {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.academies-qualification:hover {
+  color: #007bff; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.admission-title {
+  font-size: 2rem; /* Adjust font size */
+  font-weight: bold;
+  margin: 20px 0;
+  margin-top: 18%;
+  animation: fadeIn 0.5s ease forwards; /* Fade in animation */
+}
+
+.admission-details {
+  opacity: 0;
+  animation: slideIn 0.5s ease forwards; /* Slide in animation */
+  animation-delay: 0.5s; /* Delay for a smooth effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.background-academies {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.card-text {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-text li {
+  padding: 5px 0;
+}
+
+.stats-title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
